@@ -23,6 +23,7 @@ export default createGlobalStyle`
   :root {
     --primary: #19202C;
     --secondary: #898989;
+    --tertiary: rgba(235,235,235, 0.3);;
 
     --youtube: #FF0000;
     --white: #fff;

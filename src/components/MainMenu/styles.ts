@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   grid-area: MM;
+  padding-left: 32px;
 
   display: flex;
   align-items: center;
-  padding: 32px 32px;
 
   > svg + svg {
     margin-left: 28px;
@@ -15,7 +15,9 @@ export const Container = styled.div`
     cursor: pointer;
   }
 
-  > svg:first-child > path:hover {
-    fill: red;
+  > svg:hover {
+    path {
+      fill: var(--youtube);
+    }
   }
 `;
