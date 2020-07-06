@@ -47,6 +47,7 @@ export const ContainerOthers = styled.div`
   }
 
   > div:first-child {
+    cursor: pointer;
     display: flex;
     align-items: center;
     > svg:hover {
