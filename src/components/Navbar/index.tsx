@@ -8,14 +8,18 @@ import ImageProfile from '../../assets/profile.png';
 
 import { Container, ContainerInput, ContainerOthers } from './styles';
 
-const Navbar: React.FC = () => {
+export interface Props {
+  hasNotification?: number;
+}
+
+const Navbar: React.FC<Props> = ({ hasNotification }) => {
   return (
     <Container>
       <ContainerInput>
         <input type="text" placeholder="Search" />
         <IconSearch />
       </ContainerInput>
-      <ContainerOthers>
+      <ContainerOthers hasNotification={hasNotification}>
         <div>
           <IconCamera />
           <IconGrid />

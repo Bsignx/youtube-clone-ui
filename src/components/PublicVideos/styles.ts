@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const ContainerHead = styled.div`
   display: flex;
-  padding: 24px 24px 24px 0;
+  padding: 0px 24px 24px 0;
   justify-content: space-between;
   width: 100%;
   align-items: center;

@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
   return (
     <Container>
       <MainMenu />
-      <Navbar />
+      <Navbar hasNotification={12} />
       <MenuLinks />
       <PublicVideos />
       <Recommend />
